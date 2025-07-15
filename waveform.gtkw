@@ -1,0 +1,82 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Wed Jun 11 10:18:28 2025
+[*]
+[dumpfile] "C:\Users\kisho\OneDrive\Desktop\verilog\Cache_Pipelined\Pipeline.vcd"
+[dumpfile_mtime] "Wed Jun 11 08:12:22 2025"
+[dumpfile_size] 2545019
+[savefile] "C:\Users\kisho\OneDrive\Desktop\verilog\Cache_Pipelined\waveform.gtkw"
+[timestart] 23610
+[size] 1536 793
+[pos] -1 -1
+*-11.015354 390 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] Pipeline_Top_tb.
+[treeopen] Pipeline_Top_tb.Pipeline_Top.
+[treeopen] Pipeline_Top_tb.Pipeline_Top.Decode_cycle.
+[sst_width] 197
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 221
+@800200
+-Global variables
+@28
+Pipeline_Top_tb.rst
+Pipeline_Top_tb.clk
+Pipeline_Top_tb.clk_cc
+@22
+Pipeline_Top_tb.Pipeline_Top.Decode_cycle.InstrD[31:0]
+Pipeline_Top_tb.Pipeline_Top.Fetch_cycle.program_counter.PC[31:0]
+@1000200
+-Global variables
+@800200
+-Registers
+@22
+Pipeline_Top_tb.Pipeline_Top.Decode_cycle.Register_file.A1[4:0]
+Pipeline_Top_tb.Pipeline_Top.Decode_cycle.Register_file.RD1[31:0]
+Pipeline_Top_tb.Pipeline_Top.Decode_cycle.Register_file.A2[4:0]
+Pipeline_Top_tb.Pipeline_Top.Decode_cycle.Register_file.RD2[31:0]
+Pipeline_Top_tb.Pipeline_Top.Decode_cycle.Register_file.A3[4:0]
+Pipeline_Top_tb.Pipeline_Top.Decode_cycle.Register_file.WD3[31:0]
+@28
+Pipeline_Top_tb.Pipeline_Top.Decode_cycle.Register_file.WE3
+@22
+Pipeline_Top_tb.Pipeline_Top.Decode_cycle.Sign_Extend.imm_ext[31:0]
+@1000200
+-Registers
+@c00200
+-Control Signals
+@22
+Pipeline_Top_tb.Pipeline_Top.Decode_cycle.control_unit_top.ALUControl[3:0]
+@28
+Pipeline_Top_tb.Pipeline_Top.Decode_cycle.control_unit_top.ALUSrc
+Pipeline_Top_tb.Pipeline_Top.Decode_cycle.control_unit_top.ALUop[1:0]
+Pipeline_Top_tb.Pipeline_Top.Decode_cycle.control_unit_top.ImmSrc[1:0]
+Pipeline_Top_tb.Pipeline_Top.Decode_cycle.control_unit_top.Memwrite
+Pipeline_Top_tb.Pipeline_Top.Decode_cycle.control_unit_top.RegWrite
+Pipeline_Top_tb.Pipeline_Top.Decode_cycle.control_unit_top.ResultSrc[1:0]
+@1401200
+-Control Signals
+@22
+Pipeline_Top_tb.Pipeline_Top.Execute_cycle.ALUResultE[31:0]
+Pipeline_Top_tb.Pipeline_Top.Execute_cycle.ALUResultM[31:0]
+@28
+Pipeline_Top_tb.Pipeline_Top.Execute_cycle.ForwardAE[1:0]
+Pipeline_Top_tb.Pipeline_Top.Execute_cycle.ForwardBE[1:0]
+@800200
+-memory
+@28
+Pipeline_Top_tb.Pipeline_Top.Memory_cycle.CacheWait
+@22
+Pipeline_Top_tb.Pipeline_Top.Memory_cycle.ReadDataM[31:0]
+Pipeline_Top_tb.Pipeline_Top.Memory_cycle.ALUResultW[31:0]
+Pipeline_Top_tb.Pipeline_Top.Memory_cycle.WriteDataM[31:0]
+@28
+Pipeline_Top_tb.Pipeline_Top.Memory_cycle.hit1
+Pipeline_Top_tb.Pipeline_Top.Memory_cycle.hit2
+@22
+Pipeline_Top_tb.Pipeline_Top.Memory_cycle.stored_address[31:0]
+Pipeline_Top_tb.Pipeline_Top.Memory_cycle.stored_data[31:0]
+@1000200
+-memory
+[pattern_trace] 1
+[pattern_trace] 0
